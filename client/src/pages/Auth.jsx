@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import { socket } from '../socket';
 
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || 'http://localhost:5000';
+const SERVER_URL = 'https://chat-app-server-6bjp.onrender.com';
 
 export default function Auth() {
   const { login } = useAuth();
